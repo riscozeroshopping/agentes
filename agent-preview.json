@@ -18,16 +18,15 @@
       "description": "Actualiza la etapa de un lead en Kommo mediante la solicitud API configurada. Esta acción no envía una notificación a una persona ni pausa las respuestas automáticas. Úsala solo si está configurado el ID correcto de etapa de AVA. Nunca afirmes que se avisó a una representante si otro flujo de notificación no lo confirmó."
     }
   ],
-  "midias": {},
-  "etapas": {
-    "incoming_leads": "<FILL_IN_KOMMO_STAGE_ID>",
-    "in_progress": "<FILL_IN_KOMMO_STAGE_ID>",
-    "clientes_interessados": "<FILL_IN_KOMMO_STAGE_ID>",
-    "waiting_for_team_member": "<FILL_IN_KOMMO_STAGE_ID>",
-    "disqualified": "<FILL_IN_KOMMO_STAGE_ID>"
-  },
-  "etapa_de_entrada": {
-    "incoming_leads": "<FILL_IN_KOMMO_STAGE_ID>"
+ 
+"etapas": { 
+"EN CURSO": 112172544,
+"CLIENTE INTERESADO": 112172540,
+"ATENCIÓN HUMANA": 112172548,
+"PROGRAMADO": 113300676,
+"DESCALIFICADO": "113300644"
   }
+  
 }
 
+ 
